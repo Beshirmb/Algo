@@ -1,0 +1,25 @@
+algo check point:
+
+var     voy , mot , i : integer;
+        ch : string;
+
+    begin
+    mot :=0;
+    voy :=0;
+        repeter
+            ecrire("donner ch")
+            lire(ch)
+         jusqu'a (ch.long(ch))=".")
+    n:=long(ch)
+        pour i de 1 a n faire 
+            si ch[i]=" "
+                mot:=mot+1
+            finsi
+        finpour
+ pour i de 1 a n faire 
+     si ch[i]="e" ou ch[i]="a" ou ch[i]="y" ou ch[i]="o" ou ch[i]="u" ou ch[i]="i"
+        voy:=voy+1;
+     finsi
+finpour
+
+    
